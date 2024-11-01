@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+	input, select {
+		max-width: 100%;
+	}
+.inside {
+	padding: 0 10px 10px !important;
+}
+	.tf-field-wrap {
+		display: inline-block;
+		margin-right: -4px;
+		padding: 10px;
+	}
+		.tf-field-label,
+		.tf-field-description {
+			display: block;
+		}
+		.tf-field-wrap input, 
+		.tf-field-wrap select {
+			text-align: right;
+		}
+			.tf-checkbox-field,
+			.tf-checkbox-wrap,
+			.tf-alternative-field {
+				display: inline-block;
+				padding-right: 10px;
+			}
+			.tf-select-field {
+				min-width: 160px;
+			}
+			.tf-field-image {
+				max-width: 100%;
+				padding: 5px 0;
+			}
